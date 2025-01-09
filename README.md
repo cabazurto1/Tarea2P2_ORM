@@ -31,4 +31,11 @@ Antes de ejecutar este proyecto, asegúrate de tener instalados los siguientes r
 2. Docker:
    ```bash
    docker run --name mysql-micro-cursos -e MYSQL_ROOT_PASSWORD=root -e MYSQL_DATABASE=microcursos -p 3306:3306 -d mysql:latest
+3. Construye el proyecto:
+   ```bash
+   mvn clean install
+
+4. Ejecuta la aplicación:
+   ```bash
+   mvn spring-boot:run
 
